@@ -16,18 +16,18 @@
 
     <main>
         <section class="container">
-            <form action="">
+            <form action="editar_livro.php" method="POST">
                 <h1>Editar Livro</h1>
                 <p>Edite de forma rápida livros com seus respectivos títulos, autores e anos de publicação.</p>
 
                 <label for="titulo">Título:</label>
-                <input type="text" placeholder="Título" id="titulo" required>
+                <input type="text" placeholder="Título" name="titulo" id="titulo" required>
 
                 <label for="autor">Autor:</label>
-                <input type="text" placeholder="Autor" id="autor" required>
+                <input type="text" placeholder="Autor" name="autor" id="autor" required>
 
                 <label for="ano_publicacao">Ano de Publicação:</label>
-                <input type="number" placeholder="Ano de Publicação" id="ano_publicacao" min="0" required>
+                <input type="number" placeholder="Ano de Publicação" name="ano_publicacao" id="ano_publicacao" min="0" required>
 
                 <input type="submit" value="Editar Livro">
                 <input type="reset" value="Limpar">

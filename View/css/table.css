@@ -10,6 +10,7 @@ table {
 th, td {
     padding: 12px 15px;
     text-align: left;
+    font-family: var(--fonte2);
     border: 1px solid var(--colorB);
 }
 

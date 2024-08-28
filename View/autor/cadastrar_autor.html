@@ -16,15 +16,15 @@
 
     <main>
         <section class="container">
-            <form action="">
+            <form action="cadastrar_autor.php" method="POST">
                 <h1>Cadastrar Autor</h1>
                 <p>Cadastre de forma rápida autores com seus respectivos nomes e nacionalidades.</p>
 
                 <label for="nome">Nome:</label>
-                <input type="text" placeholder="Nome" id="nome" required>
+                <input type="text" placeholder="Nome" name="nome" id="nome" required>
 
                 <label for="nacionalidade">Nacionalidade:</label>
-                <input type="text" placeholder="Nacionalidade" id="nacionalidade" required>
+                <input type="text" placeholder="Nacionalidade" name="nacionalidade" id="nacionalidade" required>
 
                 <input type="submit" value="Cadastrar Autor">
                 <input type="reset" value="Limpar">

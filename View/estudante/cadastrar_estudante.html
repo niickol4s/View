@@ -9,24 +9,21 @@
     <link rel="stylesheet" href="../css/form.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/scrollbar.css">
-    <title>Biblioteca Online | Editar Autor</title>
+    <title>Biblioteca Online | Cadastrar Estudante</title>
 </head>
 <body>
     <main-header></main-header>
 
     <main>
         <section class="container">
-            <form action="editar_autor.php" method="POST">
-                <h1>Editar Autor</h1>
-                <p>Edite de forma rápida autores com seus respectivos nomes e nacionalidades.</p>
+            <form action="cadastrar_estudante.php" method="POST">
+                <h1>Cadastrar Estudante</h1>
+                <p>Cadastre de forma rápida estudantes com seus respectivos nomes.</p>
 
                 <label for="nome">Nome:</label>
                 <input type="text" placeholder="Nome" name="nome" id="nome" required>
 
-                <label for="nacionalidade">Nacionalidade:</label>
-                <input type="text" placeholder="Nacionalidade" name="nacionalidade" id="nacionalidade" required>
-
-                <input type="submit" value="Editar Autor">
+                <input type="submit" value="Cadastrar Estudante">
                 <input type="reset" value="Limpar">
             </form>
         </section>
