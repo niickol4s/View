@@ -36,6 +36,7 @@ h2.logo {
     font-size: 30px;
     font-family: var(--fonte1);
     color: var(--color4);
+    cursor: pointer;
 }
 
 p {
