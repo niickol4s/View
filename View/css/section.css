@@ -12,3 +12,7 @@ section {
     justify-content: right;
     align-items: center;
 }
+
+.section-listar {
+    padding: 0 15px;
+}

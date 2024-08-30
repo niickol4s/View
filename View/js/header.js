@@ -4,10 +4,10 @@ class Header extends HTMLElement {
             <header>
                 <h2>Biblioteca Online</h2>
                 <nav>
-                    <a href="./livro/pagina_livro.php">Livros</a>
-                    <a href="./autor/pagina_autor.php">Autores</a>
-                    <a href="./estudante/pagina_estudante.php">Estudantes</a>
-                    <a href="#emprestimos">Empréstimos</a>
+                    <a href="./livro/pagina_livro.html">Livros</a>
+                    <a href="./autor/pagina_autor.html">Autores</a>
+                    <a href="./estudante/pagina_estudante.html">Estudantes</a>
+                    <a href="./emprestimo/pagina_emprestimo.html">Empréstimos</a>
                 </nav>
             </header>
         `;

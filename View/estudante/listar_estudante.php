@@ -16,7 +16,7 @@
     <main-header></main-header>
 
     <main>
-        <section>
+        <section class="section-listar">
             <div class="descricao-texto">
                 <h1>Listar Estudantes</h1>
                 <p>

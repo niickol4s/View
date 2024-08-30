@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../css/table.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/scrollbar.css">
-    <title>Biblioteca Online | Listar Livros</title>
+    <title>Biblioteca Online | Listar Empréstimos</title>
 </head>
 <body>
     <main-header></main-header>
@@ -18,12 +18,12 @@
     <main>
         <section class="section-listar">
             <div class="descricao-texto">
-                <h1>Listar Livros</h1>
+                <h1>Listar Empréstimos</h1>
                 <p>
-                    A seção de Livros Cadastrados oferece um panorama detalhado de todas as obras disponíveis em <br>
-                    nosso acervo. Aqui, você pode acessar facilmente as informações completas de cada livro já <br>
-                    registrado na biblioteca, incluindo títulos, autores, datas de publicação e 
-                    status de disponibilidade.
+                    A seção de Empréstimos Cadastrados fornece um panorama completo de todos os <br>
+                    empréstimos registrados no sistema da biblioteca. Aqui, você pode consultar <br>
+                    facilmente detalhes de cada transação, incluindo os livros emprestados, <br>
+                    os estudantes responsáveis, as datas de retirada e devolução previstas.
                 </p>
             </div>
         </section>
